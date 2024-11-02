@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: jack
+      url-base: https://github.com/jetswayss
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: jack
+      revision: mouse
       import: app/west.yml
   self:
     path: config
