@@ -63,9 +63,9 @@
 
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &trans            &trans         &trans       &trans             &trans   &kp DELETE
-&trans      &kp INS       &kp UP        &trans        &trans        &kp KP_NUMLOCK                    &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP  &kp END            &kp N0   &trans
-&trans      &kp LEFT      &kp DOWN      &kp RIGHT     &trans        &kp CLCK                          &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT          &kp DEL  &kp BSPC
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans          &trans    &trans  &kp LC(LG(LEFT))  &kp LG(D)      &kp LG(TAB)  &kp LC(LG(RIGHT))  &trans   &trans
+&trans      &kp INS       &trans        &kp UP        &trans        &kp KP_NUMLOCK                    &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP  &kp END            &kp N0   &trans
+&trans      &trans        &kp LEFT      &kp DOWN      &kp RIGHT     &kp CLCK                          &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT          &kp DEL  &kp BSPC
+&trans      &trans        &trans        &trans        &trans        &trans          &trans    &trans  &kp LC(LG(LEFT))  &kp LG(D)      &kp LG(TAB)  &kp LC(LG(RIGHT))  &trans   &trans
                           &trans        &trans        &trans        &trans          &trans    &trans  &trans            &trans         &trans       &trans
             >;
 
