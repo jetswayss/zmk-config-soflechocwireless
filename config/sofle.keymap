@@ -67,8 +67,8 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &trans            &trans         &trans       &trans             &trans   &kp DELETE
 &tog 1      &kp INS       &trans        &kp UP        &trans        &kp KP_NUMLOCK                    &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP  &kp END            &kp N0   &trans
-&tog 2      &trans        &kp LEFT      &kp DOWN      &kp RIGHT     &kp CLCK                          &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT          &kp DEL  &kp BSPC
-&tog 3      &trans        &trans        &trans        &trans        &trans          &trans    &trans  &kp LC(LG(LEFT))  &kp LG(D)      &kp LG(TAB)  &kp LC(LG(RIGHT))  &trans   &kp DEL
+&to 2       &trans        &kp LEFT      &kp DOWN      &kp RIGHT     &kp CLCK                          &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT          &kp DEL  &kp BSPC
+&tog 3      &to 0         &trans        &trans        &trans        &trans          &trans    &trans  &kp LC(LG(LEFT))  &kp LG(D)      &kp LG(TAB)  &kp LC(LG(RIGHT))  &trans   &kp DEL
                           &trans        &trans        &trans        &trans          &trans    &trans  &trans            &trans         &trans       &trans
             >;
 
