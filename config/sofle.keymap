@@ -8,6 +8,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap {
@@ -89,11 +92,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans     &trans     &trans        &trans     &trans                      &trans     &trans     &trans    &trans    &trans     &trans
-&trans  &kp SQT    &kp LT     &kp GT        &kp DQT    &kp DOT                     &kp LT     &kp GT     &kp LBKT  &kp RBKT  &kp PRCNT  &trans
-&trans  &kp EXCL   &kp MINUS  &kp PLUS      &kp EQUAL  &kp HASH                    &kp PIPE   &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK  &trans
-&trans  &kp LCTRL  &kp SLASH  &kp ASTERISK  &kp BSLH   &kp AMPS  &trans    &trans  &kp TILDE  &kp DLLR   &kp LBRC  &kp RBRC  &kp AT     &trans
-                   &trans     &trans        &trans     &trans    &trans    &trans  &trans     &trans     &trans    &trans
+&trans  &trans     &trans     &trans          &trans     &trans                      &trans     &trans     &trans    &trans    &trans     &trans
+&trans  &kp SQT    &kp GRAVE  &kp UNDERSCORE  &kp DQT    &kp DOT                     &kp LT     &kp GT     &kp LBKT  &kp RBKT  &kp PRCNT  &trans
+&trans  &kp EXCL   &kp MINUS  &kp PLUS        &kp EQUAL  &kp HASH                    &kp PIPE   &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK  &trans
+&trans  &kp LCTRL  &kp SLASH  &kp ASTERISK    &kp BSLH   &kp AMPS  &trans    &trans  &kp TILDE  &kp DLLR   &kp LBRC  &kp RBRC  &kp AT     &trans
+                   &trans     &trans          &trans     &trans    &trans    &trans  &trans     &trans     &trans    &trans
             >;
         };
     };
